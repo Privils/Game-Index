@@ -321,3 +321,264 @@
     text-transform: capitalize;
     font-weight: bold;
   }
+  @media (max-width: 1024px) {
+    .logo{
+      width: 300px;
+      height: 40px;
+      font-size: 4em;
+      padding: 5px;
+    }
+    header{
+      margin-bottom: 20px;
+    }
+    header nav {
+      width: 35%;
+      margin-right: 10px;
+    
+    }
+    header nav ul li a{
+      font-size: 1.5em;
+    }
+    /*game.js*/
+    .genres{
+      margin: 5px;
+      font-size: 1em;
+    }
+    .gameImage{
+      width: 200px;
+      height: 230px;
+      position: relative;
+      margin-bottom: 70px;
+      padding: 5px;
+    }
+    .gameImage:hover::after{
+      content: 'view more';
+      z-index: 1;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+     cursor: pointer;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     font-size: 1.7em;
+     text-transform: capitalize;
+    }
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+    }
+    .viewMore{
+      top: 10%;
+      left: 20%;
+      color: white;
+    
+    }
+    
+    .gameName{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 5px;
+    font-weight: 200;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 2px;
+    border-radius: 0  9px  9px 0;
+    color: white;
+    padding: 3px;
+    top: 90%;
+    left: 90%;
+    background-color: #080808;
+    }
+    .viewMoreBtn{
+      width: 100%;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+    }
+    .viewMoreBtn button{
+      width: 500px;
+      height: fit-content;
+      padding: 4px;
+      text-transform: capitalize;
+      font-size: 1.73em;
+      cursor: pointer;
+      background: linear-gradient(150deg, rgba(0,0,0, 0.4) 0%, rgb(0,0,0));
+      color: white;
+    }
+  }
+  @media (max-width: 946px) {
+ 
+    .logo{
+      width: 300px;
+      height: 40px;
+      font-size: 4em;
+      padding: 5px;
+    }
+    header nav {
+      width: 35%;
+      margin-right: 10px;
+    }
+    header nav ul li a{
+      font-size: 1.5em;
+    }
+    /*home*/
+    .logoName{
+      font-size: 4em;
+    }
+    .logoInfo{
+      font-size: 2em;
+    }
+  }
+  @media (max-width: 768px) {
+    .logo{
+      width: 300px;
+      height: 40px;
+      font-size: 3.6em;
+      padding: 5px;
+    }
+    header nav {
+      width: 35%;
+      margin-right: 10px;
+    }
+    header nav ul li a{
+      font-size: 1.5em;
+    }
+    /*home*/
+    .logoName{
+      font-size: 3.7em;
+      margin: 5px;
+    }
+    .dot{
+      font-size: 6em;
+      font-weight: bolder;
+    }
+    .logoInfo{
+      font-size: 1.8em;
+      margin: 5px;
+    }
+    .buttonContainer{
+      height: 100px;
+    }
+    /*game.js*/
+    .genres{
+      margin: 5px;
+      font-size: 1em;
+    }
+    .gameImage{
+      width: 150px;
+      height: 180px;
+    }
+    
+    .gameName{
+    font-size: 1em;
+    }
+    .viewMoreBtn button{
+      font-size: 1.3em;
+      width: 400px;
+    }
+  }
+
+  @media (max-width: 609px) {
+    .logo{
+      width: fit-content;
+      height: 40px;
+      font-size: 3em;
+      padding: 5px;
+      margin-left: 10px;
+    }
+    header nav {
+      width: 40%;
+    }
+    header nav ul li a{
+      font-size: 1.2em;
+    }
+    /*home*/
+    .logoName{
+      font-size: 3em;
+      margin: 5px;
+    }
+    .dot{
+      font-size: 5em;
+    }
+    .logoInfo{
+      font-size: 1.8em;
+      margin: 5px;
+    }
+    .buttonContainer{
+      height: 100px;
+    }
+    .CenterLogo{
+      height: 250px;
+    }
+  }
+  @media (max-width: 500px) {
+    .logo{
+      font-size: 2.3em;
+    }
+    header nav ul li a{
+      font-size: 1em;
+    }
+    /*home*/
+    .logoName{
+      font-size: 2.5em;
+      margin: 5px;
+    }
+    .dot{
+      font-size: 3em;
+    }
+    .logoInfo{
+      font-size: 1.2em;
+    }
+    .CenterLogo{
+      height: 250px;
+    }
+  }
+  @media (max-width:462px) {
+    .genres{
+      margin: 3px;
+      font-size: .6em;
+    }
+    .gameImage{
+      width: 120px;
+      height: 140px;
+    }
+    
+    .gameName{
+    font-size: .7em;
+    }
+    .viewMoreBtn button{
+      font-size: 1em;
+      width: 300px;
+    }
+  }
+  @media (max-width: 375px) {
+    .logo{
+      font-size: 1.7em;
+    }
+    header nav ul li a{
+      font-size: .7em;
+    }
+    /*home*/
+    .logoName{
+      font-size: 1.7em;
+      margin: 5px;
+    }
+    .logoInfo{
+      font-size: 1em;
+    }
+    .CenterLogo{
+      height: 250px;
+    }
+    .Viewbtn{
+      font-size: 1em;
+    }
+  }
+  
