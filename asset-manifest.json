@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/privils_play_portal/static/css/main.3c9949ff.css",
-    "main.js": "/privils_play_portal/static/js/main.928ac314.js",
+    "main.css": "/privils_play_portal/static/css/main.895f2eca.css",
+    "main.js": "/privils_play_portal/static/js/main.a540281d.js",
     "static/js/453.7865b760.chunk.js": "/privils_play_portal/static/js/453.7865b760.chunk.js",
     "static/media/universe-spiral-4000x5000-10972.jpg": "/privils_play_portal/static/media/universe-spiral-4000x5000-10972.13208c29d508d71fdeae.jpg",
     "index.html": "/privils_play_portal/index.html",
-    "main.3c9949ff.css.map": "/privils_play_portal/static/css/main.3c9949ff.css.map",
-    "main.928ac314.js.map": "/privils_play_portal/static/js/main.928ac314.js.map",
+    "main.895f2eca.css.map": "/privils_play_portal/static/css/main.895f2eca.css.map",
+    "main.a540281d.js.map": "/privils_play_portal/static/js/main.a540281d.js.map",
     "453.7865b760.chunk.js.map": "/privils_play_portal/static/js/453.7865b760.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c9949ff.css",
-    "static/js/main.928ac314.js"
+    "static/css/main.895f2eca.css",
+    "static/js/main.a540281d.js"
   ]
 }
