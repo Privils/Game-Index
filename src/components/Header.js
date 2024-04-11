@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <>
     <header>
-        <a href="#" className='logo'>playPort</a>
+        <a href="/" className='logo'>playPort</a>
         <nav>
             <ul>
                 <li>

@@ -1,8 +1,9 @@
+
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
   body{
     background-image: url('./components/images/universe-spiral-4000x5000-10972.jpg');
     background-position: center;
@@ -10,11 +11,13 @@
     background-size: cover;
     background-attachment: fixed;
   }
+
   header{
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    margin-bottom: 40px;
   }
   .logo{
     color: white;
@@ -23,7 +26,7 @@
     height: 70px;
     text-align: center;
     place-content: center;
-    font-size: 4.5em;
+    font-size: 4em;
     text-transform: capitalize;
     text-decoration: none;
     padding: 10px;
@@ -49,7 +52,7 @@
     list-style: none;
   }
   header nav ul li a{
-    font-size: 2.3em;
+    font-size: 25px;
     text-decoration: none;
     color: #fff;
     text-transform: capitalize;
@@ -221,7 +224,12 @@
    align-items: center;
    color: white;
    font-size: 1.7em;
+   font-weight: bolder;
    text-transform: capitalize;
+  }
+  .gameImage:hover img{
+    cursor: pointer;
+    transform: scale(1.1);
   }
   img{
     width: 100%;
@@ -321,6 +329,25 @@
     text-transform: capitalize;
     font-weight: bold;
   }
+  .back{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   }
+   .back a{
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.627);
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 2.2em;
+    font-weight: 400;
+    color: white;
+    width: 400px;
+    margin: 10px;
+   }
   @media (max-width: 1024px) {
     .logo{
       width: 300px;
@@ -436,7 +463,58 @@
     .logoInfo{
       font-size: 2em;
     }
+    /*gameInfo*/
+    .InfoContainer{
+      margin-top: 40px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.571);
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .infoImage{
+      width: 100%;
+      height: 300px;
+    }
+    .infoImage img{
+      width: 100%;
+    }
+    .h1{
+      text-align: center;
+      text-transform: capitalize;
+      font-size: 2em;
+    }
+    .infoData{
+      width: 100%;
+    }
+    .description{
+      background-color: rgba(0, 0, 0, 0.301);
+    padding: 2px;
+    line-height: auto;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+    width: fit-content;
+    color: white;
+    }
+    .rating, .year{
+      background-color: rgba(0, 0, 0, 0.301);
+      text-transform: capitalize;
+      font-size: 1em;
+      padding: 4px;
+      width: 400px;
+    }
+    .page{
+      width: 100%;
+      text-align: center;
+      font-size: 3em;
+      color:  black;
+      text-transform: capitalize;
+      font-weight: bold;
+    }
   }
+
+
   @media (max-width: 768px) {
     .logo{
       width: 300px;
@@ -518,6 +596,7 @@
     .CenterLogo{
       height: 250px;
     }
+   
   }
   @media (max-width: 500px) {
     .logo{
@@ -540,6 +619,47 @@
     .CenterLogo{
       height: 250px;
     }
+    .gameImage:hover::after{
+     cursor: none;
+     font-size: 16px;
+     font-weight: bold;
+    }
+     /*gameInfo*/
+    
+    .infoImage{
+      width: 100%;
+      height: 200px;
+    }
+    .infoImage img{
+      width: 100%;
+    }
+    .h1{
+      font-size: 20px;
+    }
+    .infoData{
+      width: 100%;
+    }
+    .description{
+      background-color: rgba(0, 0, 0, 0.301);
+    padding: 2px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    font-size: 16px;
+    }
+    .rating, .year{
+      font-size: 1em;
+      padding: 4px;
+      width: 100%;
+      margin: 5px 0;
+    }
+ .back{
+  color: white;
+  font-size: 1.2em;
+  margin: 10px;
+ }
+ .page{
+  font-size: 40px;
+ }
   }
   @media (max-width:462px) {
     .genres{
@@ -581,4 +701,3 @@
       font-size: 1em;
     }
   }
-  
