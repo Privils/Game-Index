@@ -80,7 +80,7 @@
   p{
     color: black;
     font-weight: bolder;
-   width: 700px;
+   width: 900px;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -596,6 +596,10 @@
     .CenterLogo{
       height: 250px;
     }
+    .back a{
+      padding: 5px;
+      font-size: 1.3em;
+     }
    
   }
   @media (max-width: 500px) {
@@ -660,6 +664,9 @@
  .page{
   font-size: 40px;
  }
+ .CenterLogo{
+  height: 350px;
+}
   }
   @media (max-width:462px) {
     .genres{
@@ -693,9 +700,6 @@
     }
     .logoInfo{
       font-size: 1em;
-    }
-    .CenterLogo{
-      height: 250px;
     }
     .Viewbtn{
       font-size: 1em;

@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <>
     <header>
-        <a href="/privils_play_portal" className='logo'>playPort</a>
+        <a href="/privils_play_portal" className='logo'>gameIndex</a>
         <nav>
             <ul>
                 <li>
