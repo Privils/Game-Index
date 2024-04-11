@@ -10,9 +10,9 @@ const GameInfo = () => {
   }, [id]);
 
   const fetchGameInfo = async () => {
-    const apiKey = '65ba8ad64ee544b492cdaf7c34634b8f';
+    const apiKey = process.env.REACT_APP_API_KEY;
     const url = `https://api.rawg.io/api/games/${id}?key=${apiKey}`;
-
+     console.log(apiKey)
     try {
       const response = await fetch(url);
       if (!response.ok) {
