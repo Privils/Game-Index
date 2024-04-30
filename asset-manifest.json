@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/Game-Index/static/css/main.d54ac91b.css",
-    "main.js": "/Game-Index/static/js/main.e8ff8d22.js",
+    "main.js": "/Game-Index/static/js/main.ea234e3c.js",
     "static/js/453.7865b760.chunk.js": "/Game-Index/static/js/453.7865b760.chunk.js",
     "static/media/universe-spiral-4000x5000-10972.jpg": "/Game-Index/static/media/universe-spiral-4000x5000-10972.13208c29d508d71fdeae.jpg",
     "static/media/768tablet.jpg": "/Game-Index/static/media/768tablet.5a13af900bf2fbcbce06.jpg",
     "static/media/425mobile.jpg": "/Game-Index/static/media/425mobile.30a7f2a0663c09df1cc9.jpg",
     "index.html": "/Game-Index/index.html",
     "main.d54ac91b.css.map": "/Game-Index/static/css/main.d54ac91b.css.map",
-    "main.e8ff8d22.js.map": "/Game-Index/static/js/main.e8ff8d22.js.map",
+    "main.ea234e3c.js.map": "/Game-Index/static/js/main.ea234e3c.js.map",
     "453.7865b760.chunk.js.map": "/Game-Index/static/js/453.7865b760.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d54ac91b.css",
-    "static/js/main.e8ff8d22.js"
+    "static/js/main.ea234e3c.js"
   ]
 }
