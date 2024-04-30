@@ -4,11 +4,11 @@ const Header = () => {
   return (
     <>
     <header>
-        <a href="/privils_play_portal" className='logo'>gameIndex</a>
+        <a href="/Game-Index" className='logo'>gameIndex</a>
         <nav>
             <ul>
                 <li>
-                    <a href="/privils_play_portal">home</a>
+                    <a href="/Game-Index">home</a>
                 </li>
                 <li>
                     <a href="#">contact</a>

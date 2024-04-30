@@ -8,11 +8,11 @@ import './App.css'
 
 function App() {
   return (
-    <Router basename='/privils_play_portal'>
+    <Router basename='/Game-Index'>
       <Header />
       <Routes>
       <Route index element={<Home />} />
-        <Route path="/" element={<Home />} />
+        <Route path="/Game-Index" element={<Home />} />
         <Route path="/games" element={<Game/>}/>
         <Route path="/game-info/:id" element={<GameInfo />} />
       </Routes>
