@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FaHeart } from 'react-icons/fa'
 
 const Home = () => {
   return (
@@ -13,6 +14,9 @@ const Home = () => {
           <button className="Viewbtn">View Games</button>
         </Link>
       </div>
+      <footer className='footer'>
+        <p>&copy; 2024 Game index made with<FaHeart className='faHeart'/>by Priviledge. All Rights Reserved</p>
+      </footer>
     </>
   );
 };

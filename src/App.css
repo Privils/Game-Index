@@ -210,6 +210,19 @@
     margin-bottom: 70px;
     padding: 5px;
   }
+  .footer{
+    width: 100%;
+    display: inline-block;
+    background-color: #080808;
+  }
+  .footer p{
+    width: 100%;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: Times;
+  }
   .gameImage:hover::after{
     content: 'view more';
     z-index: 1;
@@ -226,6 +239,11 @@
    font-size: 1.7em;
    font-weight: bolder;
    text-transform: capitalize;
+  }
+  .faHeart{
+    color: #f900dc;
+    font-size: 16px;
+   
   }
   .gameImage:hover img{
     cursor: pointer;
@@ -374,6 +392,7 @@
       margin: 5px;
       font-size: 1em;
     }
+  
     .gameImage{
       width: 200px;
       height: 230px;
