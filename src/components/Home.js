@@ -5,6 +5,7 @@ import { FaHeart } from 'react-icons/fa'
 const Home = () => {
   return (
     <>
+    <div className='home'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <div className="CenterLogo">
         <p><span className="logoName">gameIndex</span><span className="dot">~</span><span className="logoInfo">the game archive</span></p>
@@ -17,6 +18,7 @@ const Home = () => {
       <footer className='footer'>
         <p>&copy; 2024 Game index made with<FaHeart className='faHeart'/>by Priviledge. All Rights Reserved</p>
       </footer>
+      </div>
     </>
   );
 };

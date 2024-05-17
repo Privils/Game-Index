@@ -69,6 +69,10 @@
   
   }
   /*home styles*/
+  .home{
+    width: 100%;
+    height: fit-content;
+  }
   .CenterLogo{
     width: 100%;
     height: 300px;
@@ -713,23 +717,34 @@
       font-size: 1em;
       width: 300px;
     }
+  .logo{
+    color: white;
+    margin-left: 6px;
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    padding: 5px;
   }
-  @media (max-width: 375px) {
-    .logo{
-      font-size: 1.7em;
-    }
-    header nav ul li a{
-      font-size: .7em;
-    }
-    /*home*/
-    .logoName{
-      font-size: 1.7em;
-      margin: 5px;
-    }
-    .logoInfo{
-      font-size: 1em;
-    }
-    .Viewbtn{
-      font-size: 1em;
-    }
+  header nav ul li a{
+    font-size: 16px;
+  }
+  .logoName{
+    font-size: 35px;
+    margin: 5px;
+  }
+  .dot{
+    font-size: 3em;
+  }
+  .logoInfo{
+    font-size: 16px;
+    margin: 5px;
+  }
+  .footer{
+    width: 100%;
+    height: 100%;
+  }
+  .footer p{
+    font-size: 12px;
+    padding: 5px;
+  }
   }
