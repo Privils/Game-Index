@@ -1,4 +1,4 @@
-# Project Name
+# Game index
 
  this project was built using a combination of HTML, CSS, and JavaScript. The layout and design are based on a template from the Templatemo website.
 
