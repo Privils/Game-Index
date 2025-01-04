@@ -196,11 +196,11 @@ const displayGameDetails = (game) => {
     }
 
     if (breadcrumbElement) {
-        breadcrumbElement.innerHTML = `<a href="index.html">Home</a> > <a href="shop.html">Shop</a> > ${game.name}`;
+        breadcrumbElement.innerHTML = `<a href="index.html">Home</a> > <a href="game.html">Shop</a> > ${game.name}`;
     }
     if (imageElement) imageElement.src = game.background_image;
     if (priceElement) {
-        priceElement.innerHTML = `<em>$${game.rating * 10}</em> $${game.rating * 8}`;
+        priceElement.innerHTML = `<em>rating : ${game.rating}</em><br> ID : ${game.id}`;
     }
     if (descriptionElement) {
         descriptionElement.textContent = game.description_raw || "No description available.";
